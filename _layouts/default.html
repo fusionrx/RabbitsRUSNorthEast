@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="container" lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="py-5">
+        <div class="row">
+        <div class="col-3 offset-1">
+            <img class="img-fluid" src="{{ "/assets/images/lionhead.jpg" | relative_url }}">
+        </div>
+            <div class="col-4 text-center">
+                <img width="80%" src="{{ "/assets/images/Logo_White.png" | relative_url }}">
+            </div>
+            <div class="col-3">
+                <img class="img-fluid" src="{{ "/assets/images/lionlop.jpg" | relative_url }}">
+            </div>
+        </div>
+    </div>
+    <div class="py-3">
+        <div class="row justify-content-center col-12">
+            <h1 class="heading-text">* Gallery updated Weekly *</h1>
+        </div>
+    </div>
+
+    <div class="py-3">
+        <div class="row">
+            <div class="col-3 offset-1">
+                <div class="" id="about-column-matcher1">
+                    <img class="img-fluid" src="{{ "/assets/images/netdwarf.jpg" | relative_url }}">
+                </div>
+                <div class="mt-5" id="about-column-matcher2">
+                    <img class="img-fluid" src="{{ "/assets/images/babiesinnest.jpg" | relative_url }}">
+                </div>
+            </div>
+            <div id="about-column" class="col-4" style="overflow-y: auto;">
+                {% include about-us.html %}
+            </div>
+            <div class="col-3">
+                <div class="">
+                    <img class="img-fluid" src="{{ "/assets/images/minirex.jpg" | relative_url }}">
+                </div>
+                <div class="mt-5">
+                    <img class="img-fluid" src="{{ "/assets/images/crossbreed.jpg" | relative_url }}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-3">
+        <div class="row justify-content-center">
+            <h1 class="heading-text">* Contact Us *</h1>
+        </div>
+    </div>
+
+    <div class="py-3">
+        <div class="row">
+            <div class="col-3 offset-1">
+                <img class="img-fluid" src="{{ "/assets/images/starterpack.jpg" | relative_url }}">
+            </div>
+            <div class="col-4 my-auto font-weight-bold h4">
+                <p class="text-center contact-text">07377581360</p>
+                <p class="text-center contact-text">07583613540</p>
+                <a href="https://www.facebook.com" ><p class="text-center contact-text" style="color: #3B5998;"><span class="fa-brands fa-facebook-f" style="color:#3B5998"></span> Facebook</p></a>
+                <a href="https://wa.me/447377581360"><p class="text-center contact-text" style="color: #25D366;"><span class="fa-brands fa-whatsapp" style="color:#25D366"></span> WhatsApp</p></a>
+            </div>
+
+            <div class="col-3">
+                <img class="img-fluid" src="{{ "/assets/images/babybunny.jpg" | relative_url }}">
+            </div>
+        </div>
+    </div>
+
+    <div class="py-3 col-10 offset-1">
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a data-toggle="tab" class="nav-link active contact-text" href="#Gallery">Gallery</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link contact-text" href="#PriceList">Price List</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link contact-text" href="#Extras">Extras</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link contact-text" href="#Reviews">Reviews</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active fade active show" id="Gallery">
+
+            </div>
+            <div class="tab-pane fade" id="PriceList">
+                <div class="row"><div class="col-4">Neths</div><div class="col-4">£60</div></div>
+                <div class="row"><div class="col-4">MiniLops</div><div class="col-4">£60</div></div>
+                <div class="row"><div class="col-4">LionLops</div><div class="col-4">£60</div></div>
+                <div class="row"><div class="col-4">MixBreads</div><div class="col-4">£40</div></div>
+                <p>Vaccinations included in price</p>
+            </div>
+            <div class="tab-pane fade" id="Extras">
+                <div class="row">
+                    <div class="col-12">
+                        Starter Packs
+                        <div class="col-10">
+                            <ul>
+                                <li>Sack of Food 20kg</li>
+                                <li>Straw</li>
+                                <li>Hay</li>
+                                <li>Shaving</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Reviews">
+                <p>* Leave us a review *</p>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>
