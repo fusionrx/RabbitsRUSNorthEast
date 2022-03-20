@@ -120,7 +120,11 @@ $breadcrumb-active-color:           $breadcrumb-divider-color !default;
 }
 
 .about-us-text {
-    font-size : 1vw !important;
+    font-size : 1.5vw !important;
+}
+
+.about-us-text > .li {
+    font-size : 1.5vw !important;
 }
 
 .vertical-section {
