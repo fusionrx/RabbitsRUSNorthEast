@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rabbits R Us North East
+title: RabbitsRUsNorthEast
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Rabbits R Us North East
-#baseurl: "" # the subpath of your site, e.g. /blog
+  RabbitsRUsNorthEast. We are a family run Rabbitry EST 2010 as a small local business BRC registered.
+baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
