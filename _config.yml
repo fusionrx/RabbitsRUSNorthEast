@@ -16,9 +16,9 @@
 title: RabbitsRUsNorthEast
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  RabbitsRUsNorthEast. We are a family run Rabbitry EST 2010 as a small local business BRC registered.
+  Rabbits R Us NorthEast. Family run Rabbitry in the North East EST 2010. BRC registered.
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.rabbitsrusnortheast.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
